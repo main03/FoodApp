@@ -1,0 +1,33 @@
+/* src/index.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.bg-primary {
+  background-color: #007bff;
+}
+
+.text-primary {
+  color: #007bff;
+}
+
+.dark .bg-primary {
+  background-color: #1a202c;
+}
+
+.dark .text-primary {
+  color: #1a202c;
+}
+.dark body {
+    background-color: #091013; /* set dark background color */
+  }
+.dark .flutter{
+    color: rgb(231, 150, 0);
+}  
+.dark .dart{
+    color: white;
+}
+
+.dark .logo{
+ background-color: #f3f5f7;
+}
